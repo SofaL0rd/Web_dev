@@ -1,0 +1,41 @@
+div.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #2b2b2b;
+
+
+
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    height: 65px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 20px;
+}
+
+footer div a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    color: #b6b6b6;
+}

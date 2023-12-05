@@ -1,0 +1,104 @@
+
+.product-detail {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+
+.product-detail h2 {
+    font-size: 20px;
+    margin: 3px;
+}
+
+.price, .desc {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+}
+
+.desc{
+    margin: 5px;
+    text-align: center;
+}
+
+.product-detail h3 {
+    font-size: 17px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+ .commentList {
+    display: block;
+    font-size: 15px;
+    margin: 5px 0;
+    color: #444;
+}
+
+.product-detail form textarea {
+    width: 90%;
+    height: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    color: #444;
+}
+
+.product-detail form button, .addCart {
+    background-color: rgb(219, 124, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+
+}
+.product-detail form button{
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.product-detail form button:hover {
+    background-color: #0056b3;
+}
+div.content {
+    margin: auto;
+    width: 90%;
+}
+
+
+p {
+    text-align: justify;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 5px;
+}
+
+span {
+    margin: 10px;
+}
+
+b {
+    text-transform: uppercase;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.56);
+    margin: 20px;
+}
+
+img {
+    max-width: 100px;
+    margin: 0 5px;
+    border: 1px solid #2b2b2b;
+
+}
