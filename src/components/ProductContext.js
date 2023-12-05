@@ -9,12 +9,7 @@ export function ProductProvider({ children }) {
         { id: 3, name: 'Товар 3', price: 200, description: "Different description", },
 
     ]);
-    const productWithId1 = products.find((product) => product.id === 1);
-    
-    // const addProduct = (id,name, price) => {
-    //     setItems((prevState)=>[...prevState,{id,name,price}])
-    // }
-
+ 
 
     return (
         <ProductContext.Provider value={{ products }} >{children}</ProductContext.Provider>

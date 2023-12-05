@@ -1,28 +1,3 @@
-// import './App.css';
-// import { Header } from './components/Header/Header';
-// import { Footer } from './components/Footer/Footer';
-// import { Main } from './components/Main/Main';
-// import ProductDetail from './components/ProductDetail/ProductDetail';
-// import Status from './components/Status';
-// import Products from './components/Products/Products';
-
-// function App() {
- 
-
-//   return (
-//     <div className="App">
-//       <Header/>
-//       <Main>
-//         <Status />
-//         <Products />
-//       </Main>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import './App.css';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
