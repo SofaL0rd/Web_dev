@@ -30,7 +30,7 @@ function ProductPage() {
         }
     };
     return (
-        <div className='product-page'>
+        <div className='product_page'>
             <div>{product.name}</div>
             <p className='price'>Ціна: {product.price} грн</p>
             <p className='desc'>{}</p>

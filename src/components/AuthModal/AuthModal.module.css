@@ -1,0 +1,25 @@
+.button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(95, 136, 0);
+    font-size: 16px;
+    margin: 3px;
+}
+.login, .cancel{
+    display: inline-flex;
+    align-items: center;
+}
+.login{
+    background-color: rgb(219, 124, 0);
+}
+.modal{
+    max-width: 340px;
+   
+}
+.modal span, .input{
+    margin: 5px 0 ;
+}
+.input span{
+    margin: 0;
+    
+}

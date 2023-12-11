@@ -1,14 +1,14 @@
 import React from "react";
 import { useContext } from "react";
 import CartContext from "../CartContext";
-import './Checkout.css';
+import CheckoutCSS from './Checkout.module.css';
 
 function Checkout() {
     const { items } = useContext(CartContext);
     return (
-        <div className="checkout">
+        <div className={CheckoutCSS.checkout}>
             <h1>Checkout</h1>
-            <div className="shopping_bag">
+            <div className={CheckoutCSS.shopping_bag}>
                 {items.map((item) => (
                     <div>
                         <h2> {item.name}</h2>

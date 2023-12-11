@@ -1,4 +1,4 @@
-div.header {
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +18,7 @@ div.header {
 
 }
 
-#head2 {
+.head2 {
     display: flex;
     /* color: #ffffff; */
     font-size: 20pt;
@@ -28,7 +28,7 @@ div.header {
     width: 40%;
 
 }
-div.log {
+.log {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -37,12 +37,12 @@ div.log {
     margin: 15px 0;
 }
 @media (max-width:1700px) {
-    div.log{
+    .log{
         flex-direction: column;
     }
     
 }
- div.button , input[type='submit'] {
+ .button , input[type='submit'] {
      display: flex;
      align-items: center;
      border: none;
@@ -53,8 +53,7 @@ div.log {
      width:80%;
  }
 
- div.button a {
-     font-weight: bold;
+ .button a {
      font-size: 16px;
      color: #ffffff;
      width: 100%;
@@ -62,7 +61,7 @@ div.log {
      text-decoration: none;
  }
 
- div.button:hover , input[type='submit']:hover{
+ .button:hover , input[type='submit']:hover{
      background-color: #ffffff;
      border-color: #000000;
 

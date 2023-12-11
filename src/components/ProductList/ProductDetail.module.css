@@ -1,13 +1,13 @@
 
-.product-detail {
+.product_detail {
+    display: inline-block;
     border: 1px solid #ccc;
     padding: 20px;
     margin: 10px;
     background-color: #f9f9f9;
-    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
 }
 
-.product-detail h2 {
+.product_detail h2 {
     font-size: 20px;
     margin: 3px;
 }
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.product-detail h3 {
+.product_detail h3 {
     font-size: 17px;
     margin: 10px 0;
     color: #333;
@@ -41,7 +41,7 @@
     color: #444;
 }
 
-.product-detail form textarea {
+.product_detail form textarea {
     width: 90%;
     height: 18px;
     margin: 10px 0;
@@ -51,19 +51,19 @@
     color: #444;
 }
 
-.product-detail form button, .addCart {
+.product_detail form button, .addCart {
     background-color: rgb(219, 124, 0);
     color: #fff;
     border: none;
     padding: 10px 20px;
 
 }
-.product-detail form button{
+.product_detail form button{
     font-size: 12px;
     padding: 8px 10px;
 }
 
-.product-detail form button:hover {
+.product_detail form button:hover {
     background-color: #0056b3;
 }
 div.content {

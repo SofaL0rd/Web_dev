@@ -1,4 +1,4 @@
-.product-page{
+.product_page{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,31 @@
      margin: 5px 0;
      color: #444;
  }
+.price, .desc {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+}
 
- .product-page form textarea {
+.product_page form button, .addCart {
+    background-color: rgb(219, 124, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+.product_page form button {
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.desc{
+    margin: 5px;
+    text-align: center;
+}
+
+ .product_page form textarea {
      width: 90%;
      height: 18px;
      margin: 10px 0;
@@ -20,7 +43,7 @@
      color: #444;
  }
 
- .product-page form button {
+ .product_page form button {
      background-color: rgb(219, 124, 0);
      color: #fff;
      border: none;
@@ -28,11 +51,11 @@
 
  }
 
- .product-page form button {
+ .product_page form button {
      font-size: 12px;
      padding: 8px 10px;
  }
 
- .product-page form button:hover {
+ .product_page form button:hover {
      background-color: #0056b3;
  }

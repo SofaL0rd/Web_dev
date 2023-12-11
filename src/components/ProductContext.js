@@ -9,10 +9,21 @@ export function ProductProvider({ children }) {
         { id: 3, name: 'Товар 3', price: 200, description: "Different description", },
 
     ]);
+
+    const addProduct = () => {
+        const newProduct = {
+            id: products.length + 1,
+            name: `Товар ${products.length + 1}`,
+            price: 0,
+            description: 'New product description',
+        };
+
+        setProducts([...products, newProduct]);
+    }
  
 
     return (
-        <ProductContext.Provider value={{ products }} >{children}</ProductContext.Provider>
+        <ProductContext.Provider value={{ products, addProduct }} >{children}</ProductContext.Provider>
     );
 }
 
